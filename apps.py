@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import joblib 
 # Load the trained model
-with open('random_forest_model.joblib', 'rb') as file:
+with open('random_forest_models.joblib', 'rb') as file:
     regression_model = joblib.load(file)
 
 st.sidebar.header('User Input Parameters')
